@@ -13,22 +13,7 @@
 .portfolio:hover{
     color: rgb(26 188 156);
 }
-.image{
-    border-radius: 10px;
-}
-.image:hover{
-    color:  rgb(26 188 156);
-    /* opacity: 0.5; */
-    cursor: pointer;
-}
-.plus{
-    position: relative;
-}
-.bx-plus{
-    font-size: 100px;
-    position:absolute;
-    color: white;
-   }
+
    .box{
     font-size: 24px;
     margin-bottom: 7rem;
@@ -38,10 +23,52 @@
     color: black; 
     background-color:white;
    }
-   #icon{
+   .photo {
+    position: relative;
+    /* position: absolute; */
+    /* width: 100%; */
+    /* max-width: 400px; */
+  }
+  
+  .image {
+    display: block;
+    border-radius: 10px;
+    width: 100%;
+    height: auto;
+  }
+  
+  .overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 94.5%;
+    margin-left: 12px;
+    border-radius: 10px;
+    opacity: 0;
+    background-color: rgb(26 188 156) ;
+  }
+  
+  .photo:hover .overlay {
+    opacity: 0.8;
+  }
+  
+  .icon {
+    color: white;
+    font-size: 100px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    /* -ms-transform: translate(-50%, -50%); */
+    text-align: center;
+  }
+  #icon{
     font-size: 30px;
     color: white;
-    border: 2px solid;
+    border: 2px solid white;
     padding:12px;
     margin: 0px 4px;
     border-radius: 90px; 
@@ -51,5 +78,12 @@
    #icon:hover{
     background-color: white;
     color: black;
-    border: none;
+    /* border: none; */
    }
+   #mark{
+    font-size: 25px;
+    color: white;
+    /* text-align: center; */
+    /* justify-content: center; */
+   }
+  
