@@ -7,7 +7,7 @@
 .portfolio{
     color: white;
     font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
-    font-size: 16px;
+    font-size: 18px;
     
 }
 .portfolio:hover{
@@ -55,7 +55,7 @@
     opacity: 0.8;
   }
   
-  .icon {
+  #plus {
     color: white;
     font-size: 100px;
     position: absolute;
@@ -69,7 +69,7 @@
     font-size: 30px;
     color: white;
     border: 2px solid white;
-    padding:12px;
+    padding:11px;
     margin: 0px 4px;
     border-radius: 90px; 
     /* position: fixed; */
@@ -86,4 +86,9 @@
     /* text-align: center; */
     /* justify-content: center; */
    }
-  
+   .modal-header{
+    border: 0;
+   }
+   .modal-footer{
+    border: 0;
+   }

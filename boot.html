@@ -13,14 +13,14 @@
     <title>Bootstrap first task</title>
 </head>
 <body>
-    <div class="container-fluid sticky-top" style="background-color:#2C3E50;padding: 24px 0px;">
+    <div class="container-fluid sticky-top" style="background-color:#2C3E50;padding: 15px 0px;">
             <header>
-                <div class="row">
+                <div class="row m-0 p-0">
                 <div class="col h2">
-                    <P class="h2 text-white pt-3 boot1" style="padding-left: 120px; font-weight: bold;font-size: 28px;">START BOOTSTRAP</p>
+                    <P class="h2 text-white mt-4 boot1" style="padding-left: 50px; font-weight: bolder;font-size:30px;">START BOOTSTRAP</p>
                 </div>
                 <div class="col d-flex justify-content-end">
-                <ul class="list-inline" style="padding-right: 140px;">
+                <ul class="list-inline" style="padding-right: 70px;font-size: 30px;">
                     <li class="list-inline-item " style="padding-top: 20px; font-weight: bold; "><a class="text-decoration-none portfolio"href="http://127.0.0.1:5500/boot.html#:~:text=Web%20Designer%20%2D%20illustrator-,PORTFOLIO">PORTFOLIO</a></li>
                     <li class="list-inline-item" style="padding-top: 20px; font-weight: bold; padding-left: 40px;"><a class="text-decoration-none portfolio"href="http://127.0.0.1:5500/boot.html#http://127.0.0.1:5500/boot.html#:~:text=PORTFOLIO-,ABOUT,-Freelancer%20is%20a">ABOUT</a></li>
                     <li class="list-inline-item" style="padding-top: 20px; font-weight: bold; padding-left: 40px;"><a class="text-decoration-none portfolio"href="http://127.0.0.1:5500/boot.html#:~:text=Free%20Download!-,CONTACT%20ME,-Full%20name">CONTACT</a></li>
@@ -30,8 +30,8 @@
             </header>
             </div>
         <div class="container-fluid" style="background-color: rgb(26 188 156);margin-bottom: 90px;">
-           <div  class=" col d-flex justify-content-center"><img src="images/boot1.svg" style="width: 230px;height: 300px;margin-top: 100px;"> </div>
-            <p class="d-flex justify-content-center text-white boot1" style="font-size: 64px;font-weight: bold;">START BOOTSTRAP</p>
+           <div  class=" col d-flex justify-content-center"><img src="images/boot1.svg" style="width: 260px;height: 330px;margin-top: 80px;"> </div>
+            <p class="d-flex justify-content-center text-white boot1" style="font-size: 70px;font-weight: bolder;">START BOOTSTRAP</p>
             <div class="d-flex justify-content-center">
             <div class=" text-white mt-4" style="width: 100%; max-width:7rem;height: 0%; border: 2px solid;border-radius: 4px;"></div>
             <div class=" text-white mx-3" style="font-size: 40px;"><i class='bx bxs-star' ></i></div>
@@ -43,57 +43,178 @@
             <p class="h1 d-flex justify-content-center boot1" style="color:#212529;font-size: 48px;font-weight: bolder;">PORTFOLIO</p>
             <div class="d-flex justify-content-center">
                 <div class=" mt-4" style="width: 100%; max-width:7rem;height: 0%; border: 2px solid;border-radius: 4px;color: #212529;"></div>
-                <div class=" mx-2 boot2" style="font-size: 40px;color: #212529;"><i class='bx bxs-star' ></i></div>
+              <div class=" mx-2 boot2" style="font-size: 40px;color: #212529;"><i class='bx bxs-star' ></i></div>
                 <div class=" mt-4" style="width: 100%;max-width:7rem;height: 0%; border: 2px solid;border-radius: 4px;color: #212529;"></div>
             </div>
             <div class="container"style="max-width:78rem;">
             <div class="row d-flex mt-4 " style="flex-wrap: wrap;">
                 <div class="photo col-4 mb-5 ">
-                    <img class="image" src="images/boot2.png" alt="boot">
-                    <div class="overlay">
-                    <a href= "#" class="icon" title="">
-                    <i class='bx bx-plus'></i>
-                    </a>
-                    </div>                
+                <img class=" image staticBackdrop" src="images/boot2.png" alt="boot" data-bs-toggle="modal" data-bs-target="#staticBackdrop" >
+                <div class="modal fade"id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                  <div class="modal-dialog modal-xl" >
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <p class="modal-title boot1 col d-flex justify-content-center" style="font-size: 48px;color: #212529;font-weight: bolder;" id="staticBackdropLabel">LOG CABIN</p>
+                        </div>
+                        <div class="d-flex justify-content-center">
+                          <div class=" mt-4" style="width: 100%; max-width:7.5rem;height: 0%; border: 2px solid;border-radius: 4px;color: #212529;"></div>
+                          <div class=" mx-2" style="font-size: 40px;color: #212529;"><i class='bx bxs-star' ></i></div>
+                          <div class=" mt-4" style="width: 100%;max-width:7.5rem;height: 0%; border: 2px solid;border-radius: 4px;color: #212529;"></div>
+                      </div>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                      <div class="modal-body">
+                          <img class="col d-flex justify-content-center" src="images/boot2.png" style="max-width: 100%; height: auto; border-radius: 10px;">
+                          <p class="boot2" style="font-size: 20px;margin: 2rem 6rem;">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.</p>
+                      </div>
+                      <div class="modal-footer">
+                        <button type="button" class="btn text-white col justify-content-center" style="background-color: rgb(26 188 156);font-size: 20px;"data-bs-dismiss="modal"><i class='bx bx-x' id="mark"></i> Close Window </button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="overlay" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+                    <i class='bx bx-plus'id="plus"></i>
+                    </div>      
                 </div>
                 <div class=" photo col-4 mb-5">
-                    <img class="image" src="images/boot3.png" alt="boot">
-                    <div class="overlay">
-                        <a href= "#" class="icon" title="">
-                        <i class='bx bx-plus'></i>
-                        </a>
+                    <img class="image staticBackdrop" src="images/boot3.png" alt="boot"data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+                    <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                        <div class="modal-dialog" >
+                          <div class="modal-content">
+                            <div class="header">
+                              <p class="modal-title d-flex justify-content-center boot1" style="font-size: 60px;color: #212529;font-weight: bolder;" id="staticBackdropLabel">TASTY CAKE</p>
+                              </div>
+                              <div class="d-flex justify-content-center">
+                                <div class=" mt-4" style="width: 100%; max-width:7.5rem;height: 0%; border: 2px solid;border-radius: 4px;color: #212529;"></div>
+                                <div class=" mx-2" style="font-size: 40px;color: #212529;"><i class='bx bxs-star' ></i></div>
+                                <div class=" mt-4" style="width: 100%;max-width:7.5rem;height: 0%; border: 2px solid;border-radius: 4px;color: #212529;"></div>
+                            </div>
+                              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            <div class="modal-body">
+                                <img src="images/boot3.png" style="width: 100%;height: auto;">
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.</p>
+                            </div>
+                            <div class="footer">
+                              <button type="button" class="btn text-white" style="background-color: rgb(26 188 156);font-size: 20px;"data-bs-dismiss="modal"><i class='bx bx-x' id="mark"></i> Close Window </button>
+                              <button type="button" class="btn" style="background-color: rgb(26 188 156) ;">Close Window</button>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    <div class="overlay" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+                        <i class='bx bx-plus'id="plus" ></i>
                         </div>
                         </div>
                 <div class="photo col-4 mb-5"> 
-                    <img class="image" src="images/boot4.png" alt="boot">
-                    <div class="overlay">
-                        <a href= "#" class="icon" title="">
-                        <i class='bx bx-plus'></i>
-                        </a>
+                    <img class=" image staticBackdrop" src="images/boot4.png" alt="boot" data-bs-toggle="modal" data-bs-target="#staticBackdrop" >
+                    <div class="modal fade"id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                      <div class="modal-dialog modal-xl" >
+                        <div class="modal-content">
+                          <div class="modal-header">
+                            <p class="modal-title boot1 col d-flex justify-content-center" style="font-size: 48px;color: #212529;font-weight: bolder;" id="staticBackdropLabel">CIRCUS TENT</p>
+                            </div>
+                            <div class="d-flex justify-content-center">
+                              <div class=" mt-4" style="width: 100%; max-width:7.5rem;height: 0%; border: 2px solid;border-radius: 4px;color: #212529;"></div>
+                              <div class=" mx-2" style="font-size: 40px;color: #212529;"><i class='bx bxs-star' ></i></div>
+                              <div class=" mt-4" style="width: 100%;max-width:7.5rem;height: 0%; border: 2px solid;border-radius: 4px;color: #212529;"></div>
+                          </div>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                          <div class="modal-body">
+                              <img class="col d-flex justify-content-center" src="images/boot4.png" style="max-width: 100%; height: auto; border-radius: 10px;">
+                              <p class="boot2" style="font-size: 20px;margin: 2rem 6rem;">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.</p>
+                          </div>
+                          <div class="modal-footer">
+                            <button type="button" class="btn text-white col justify-content-center" style="background-color: rgb(26 188 156);font-size: 20px;"data-bs-dismiss="modal"><i class='bx bx-x' id="mark"></i> Close Window </button>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="overlay" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+                        <i class='bx bx-plus'id="plus"></i>
                         </div>
                 </div>
                 <div class="photo col-4 mb-5">
-                    <img class="image" src="images/boot5.png" alt="boot">
-                    <div class="overlay">
-                        <a href= "#" class="icon" title="">
-                        <i class='bx bx-plus'></i>
-                        </a>
+                    <img class=" image staticBackdrop" src="images/boot5.png" alt="boot" data-bs-toggle="modal" data-bs-target="#staticBackdrop" >
+                    <div class="modal fade"id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                      <div class="modal-dialog modal-xl" >
+                        <div class="modal-content">
+                          <div class="modal-header">
+                            <p class="modal-title boot1 col d-flex justify-content-center" style="font-size: 48px;color: #212529;font-weight: bolder;" id="staticBackdropLabel">CONTROLLER</p>
+                            </div>
+                            <div class="d-flex justify-content-center">
+                              <div class=" mt-4" style="width: 100%; max-width:7.5rem;height: 0%; border: 2px solid;border-radius: 4px;color: #212529;"></div>
+                              <div class=" mx-2" style="font-size: 40px;color: #212529;"><i class='bx bxs-star' ></i></div>
+                              <div class=" mt-4" style="width: 100%;max-width:7.5rem;height: 0%; border: 2px solid;border-radius: 4px;color: #212529;"></div>
+                          </div>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                          <div class="modal-body">
+                              <img class="col d-flex justify-content-center" src="images/boot5.png" style="max-width: 100%; height: auto; border-radius: 10px;">
+                              <p class="boot2" style="font-size: 20px;margin: 2rem 6rem;">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.</p>
+                          </div>
+                          <div class="modal-footer">
+                            <button type="button" class="btn text-white col justify-content-center" style="background-color: rgb(26 188 156);font-size: 20px;"data-bs-dismiss="modal"><i class='bx bx-x' id="mark"></i> Close Window </button>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="overlay" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+                        <i class='bx bx-plus'id="plus"></i>
                         </div>
                 </div>
                 <div class="photo col-4 mb-5">
-                    <img class="image" src="images/boot6.png" alt="boot">
-                    <div class="overlay">
-                        <a href= "#" class="icon" title="">
-                        <i class='bx bx-plus'></i>
-                        </a>
+                    <img class=" image staticBackdrop" src="images/boot6.png" alt="boot" data-bs-toggle="modal" data-bs-target="#staticBackdrop" >
+                    <div class="modal fade"id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                      <div class="modal-dialog modal-xl" >
+                        <div class="modal-content">
+                          <div class="modal-header">
+                            <p class="modal-title boot1 col d-flex justify-content-center" style="font-size: 48px;color: #212529;font-weight: bolder;" id="staticBackdropLabel">LOCKED SAFE</p>
+                            </div>
+                            <div class="d-flex justify-content-center">
+                              <div class=" mt-4" style="width: 100%; max-width:7.5rem;height: 0%; border: 2px solid;border-radius: 4px;color: #212529;"></div>
+                              <div class=" mx-2" style="font-size: 40px;color: #212529;"><i class='bx bxs-star' ></i></div>
+                              <div class=" mt-4" style="width: 100%;max-width:7.5rem;height: 0%; border: 2px solid;border-radius: 4px;color: #212529;"></div>
+                          </div>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                          <div class="modal-body">
+                              <img class="col d-flex justify-content-center" src="images/boot6.png" style="max-width: 100%; height: auto; border-radius: 10px;">
+                              <p class="boot2" style="font-size: 20px;margin: 2rem 6rem;">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.</p>
+                          </div>
+                          <div class="modal-footer">
+                            <button type="button" class="btn text-white col justify-content-center" style="background-color: rgb(26 188 156);font-size: 20px;"data-bs-dismiss="modal"><i class='bx bx-x' id="mark"></i> Close Window </button>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="overlay" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+                        <i class='bx bx-plus'id="plus"></i>
                         </div>
                 </div>
                 <div class="photo col-4 mb-5">
-                    <img class="image" src="images/boot7.png" alt="boot">
-                    <div class="overlay">
-                        <a href= "#" class="icon" title="">
-                        <i class='bx bx-plus'></i>
-                        </a>
+                    <img class=" image staticBackdrop" src="images/boot7.png" alt="boot" data-bs-toggle="modal" data-bs-target="#staticBackdrop" >
+                    <div class="modal fade"id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                      <div class="modal-dialog modal-xl" >
+                        <div class="modal-content">
+                          <div class="modal-header">
+                            <p class="modal-title boot1 col d-flex justify-content-center" style="font-size: 48px;color: #212529;font-weight: bolder;" id="staticBackdropLabel">SUBMARINE</p>
+                            </div>
+                            <div class="d-flex justify-content-center">
+                              <div class=" mt-4" style="width: 100%; max-width:7.5rem;height: 0%; border: 2px solid;border-radius: 4px;color: #212529;"></div>
+                              <div class=" mx-2" style="font-size: 40px;color: #212529;"><i class='bx bxs-star' ></i></div>
+                              <div class=" mt-4" style="width: 100%;max-width:7.5rem;height: 0%; border: 2px solid;border-radius: 4px;color: #212529;"></div>
+                          </div>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                          <div class="modal-body">
+                              <img class="col d-flex justify-content-center" src="images/boot7.png" style="max-width: 100%; height: auto; border-radius: 10px;">
+                              <p class="boot2" style="font-size: 20px;margin: 2rem 6rem;">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.</p>
+                          </div>
+                          <div class="modal-footer">
+                            <button type="button" class="btn text-white col justify-content-center" style="background-color: rgb(26 188 156);font-size: 20px;"data-bs-dismiss="modal"><i class='bx bx-x' id="mark"></i> Close Window </button>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="overlay" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+                        <i class='bx bx-plus'id="plus"></i>
                         </div>
                 </div>
              </div>
@@ -148,19 +269,19 @@
             <div class="container-fluid" style="background-color: #2C3E50;;">
                 <div class="container d-flex ">
                 <div class="col-4  text-white">
-                <h3 class="boot1 ps-5" style="font-weight: bold;padding-top: 6rem;">LOCATION</h3>
-                <p class="boot2 pt-3" style="font-size: 20px;padding-bottom: 150px;padding-left: 1rem;margin-right: 9rem;">2215 John Daniel Drive     Clark, MO 65243</p>
+                <h3 class="boot1 ps-5" style="font-weight: bold;padding-top: 6rem;font-size:25px;margin-left: 1.5rem;">LOCATION</h3>
+                <p class="boot2 pt-3" style="font-size: 20px;padding-bottom: 100px;padding-left: 1rem;margin-right: 5rem;margin-left: 1rem;">2215 John Daniel Drive     Clark, MO 65243</p>
                 </div>
                 <div class="col-4 text-white">
-                    <h3 class="boot1" style="font-weight: bold;padding-top: 6rem;">AROUND THE WEB</h3>
-                    <a href="#"><i class='bx bxl-facebook mt-3' id="icon"></i></a>
+                    <h3 class="boot1" style="font-weight: bold;padding-top: 6rem;font-size:25px;margin-left: 3rem;">AROUND THE WEB</h3>
+                    <a class=" " style="margin-left:2.9rem;" href="#"><i class='bx bxl-facebook mt-3' id="icon"></i></a>
                     <a href="#"><i class='bx bxl-twitter' id="icon"></i></a>
                     <a href="#"><i class='bx bxl-linkedin' id="icon"></i></a>
-                    <a href="#"><i class='bx bxs-basketball' id="icon"></i></a>
+                    <a class="me-5" href="#"><i class='bx bxs-basketball' id="icon"></i></a>
                     </div>
                     <div class="col-4 text-white">
-                        <h3 class="boot1"style="font-weight: bold;padding-top: 6rem;">ABOUT FREELANCER</h3>
-                        <p class="boot2 pt-3" style="font-size: 20px;">Freelance is a free to use, MIT licensed Bootstrap theme created by<a href="#" style="color:rgb(26 188 156) ;"> Start Bootstrap.</a></p>
+                        <h3 class="boot1"style="font-weight: bold;padding-top: 6rem; font-size:25px;margin-left:5rem;">ABOUT FREELANCER</h3>
+                        <p class="boot2 pt-3" style="font-size: 19px;margin-left: 3rem;">Freelance is a free to use, MIT licensed Bootstrap theme created by<a href="#" style="color:rgb(26 188 156) ;"> Start Bootstrap</a> .</p>
                     </div>
                     </div>
                 </div>
@@ -169,38 +290,5 @@
                         <p class="text-white">Copyright © Your Website 2023</p>
                     </footer>
                 </div>
-<!-- <button type="button" class="staticBackdrop" data-bs-toggle="modal" data-bs-target="#staticBackdrop"> -->
-  <!-- </button> -->
-  <!-- <img class="staticBackdrop" src="images/boot2.png" alt="boot" data-bs-toggle="modal" data-bs-target="#staticBackdrop" > -->
-
-  <!-- <div class="modal fade"id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
-    <div class="modal-dialog" >
-      <div class="modal-content">
-        <div class="modal-header">
-          <p class="modal-title d-flex justify-content-center boot1" style="font-size: 60px;color: #212529;font-weight: bolder;" id="staticBackdropLabel">LOG CABIN</p>
-          </div>
-          <div class="d-flex justify-content-center">
-            <div class=" mt-4" style="width: 100%; max-width:7.5rem;height: 0%; border: 2px solid;border-radius: 4px;color: #212529;"></div>
-            <div class=" mx-2" style="font-size: 40px;color: #212529;"><i class='bx bxs-star' ></i></div>
-            <div class=" mt-4" style="width: 100%;max-width:7.5rem;height: 0%; border: 2px solid;border-radius: 4px;color: #212529;"></div>
-        </div>
-          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-        <div class="modal-body">
-            <img src="images/boot2.png" style="width: 400px;height: 300px;">
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.</p>
-        </div>
-        <div class="modal-footer">
-          <button type="button" class="btn text-white" style="background-color: rgb(26 188 156);font-size: 20px;"data-bs-dismiss="modal"><i class='bx bx-x' id="mark"></i> Close Window </button>
-          <!-- <button type="button" class="btn" style="background-color: rgb(26 188 156) ;">Close Window</button> -->
-        </div>
-      </div>
-    </div>
-  </div> -->
-        
-        
-        
-
-
-    
 </body>
 </html>
