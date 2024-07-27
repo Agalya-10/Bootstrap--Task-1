@@ -8,6 +8,8 @@
     color: white;
     font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
     font-size: 18px;
+    /* background-color: white; */
+    /* border: 1px solid rgb(26 188 156); */
     
 }
 .portfolio:hover{
@@ -83,12 +85,15 @@
    #mark{
     font-size: 25px;
     color: white;
-    /* text-align: center; */
-    /* justify-content: center; */
+    align-self: center;
+    /* padding-top: 10px; */
    }
    .modal-header{
     border: 0;
    }
    .modal-footer{
     border: 0;
+   }
+   .bx-x:before{
+    padding-top: 20px !important;
    }
