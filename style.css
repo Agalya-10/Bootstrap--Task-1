@@ -72,7 +72,7 @@
     color: white;
     border: 2px solid white;
     padding:11px;
-    margin: 0px 4px;
+    margin: 0px 3px;
     border-radius: 90px; 
     /* position: fixed; */
     /* width: 100%; */
@@ -97,3 +97,34 @@
    .bx-x:before{
     padding-top: 20px !important;
    }
+  
+   @media screen and (max-width:1024px){
+    .location{
+      padding-left: 10px !important;
+      margin-right: 1rem !important;
+    }
+    .web{
+      padding-left: 0px !important;
+
+    }
+    .webicons{
+      padding-left: 0rem !important;
+      padding-right: 6rem !important;
+    }
+    .about{
+      margin-left: 1px !important;
+      /* margin-right: 4rem !important; */
+
+    }
+    
+   }
+   @media screen and (max-width:768px){
+    .portfolio{
+      display: none;
+    }
+    .row{
+      text-align: center !important;
+    }
+    
+
+  }
