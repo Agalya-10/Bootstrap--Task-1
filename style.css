@@ -30,15 +30,13 @@
     /* position: absolute; */
     /* width: 100%; */
     /* max-width: 400px; */
-  }
-  
+   }
   .image {
     display: block;
     border-radius: 10px;
     width: 100%;
     height: auto;
   }
-  
   .overlay {
     position: absolute;
     top: 0;
@@ -97,10 +95,19 @@
    .bx-x:before{
     padding-top: 20px !important;
    }
+   .navbar-toggler{
+    border: none;
+  }
+  .navbar-toggler:focus{
+    box-shadow: none;
+  }
   
    @media screen and (max-width:1024px){
     .footer{
       padding-left: 2rem !important;
+    }
+    .overlay{
+      width: 93% !important;
     }
     .location{
       font-size: 24px !important;
@@ -124,8 +131,11 @@
      }
    }
    @media screen and (max-width:768px){
-    .portfolio{
+    /* .portfolio{
       display: none;
+    } */
+    .overlay{
+      width: 93.5% !important;
     }
     .start{
       font-size: 44px !important;
@@ -167,17 +177,89 @@
       font-size: 23px !important;
       padding-left: 8px !important;
     }
+    .overlay{
+      width: 94% !important;
+    }
     .location{
       margin-left: 3rem !important;
     }
     .john{
       /* padding: -9px 10rem 15px 6rem !important; */
-      padding: -1px  8rem!important;
+      /* padding: -1px  8rem!important; */
+      padding: 15px 1rem 15px 2.5rem !important;
+    }
+    .around{
+      padding-left: 2.5rem !important;
+    }
+    .web{
+      padding-left: 2.5rem !important;
+    }
+    .about{
+      padding-left: 2rem !important;
+    }
+  }
+  @media screen and (max-width:375px){
+    .overlay{
+      width: 93.5% !important;
+    }
+    .location{
+      margin-left: 1.5rem !important;
+    }
+    .john{
+      padding-left:  0px !important;
+      margin-left: 0px !important;
+      margin-right: 0px !important;
+      padding-right: 0px !important;
+    }
+    .around{
+      padding-left: 1rem !important;
+    }
+    #icon{
+      padding: 8px !important;
+      margin-top:  20px !important;
+
+    }
+    .web{
+      padding-left: 21px !important;
+    }
+    .about{
+      padding-left: 0.5rem !important;
+    }
+  }
+  @media screen and (max-width:320px){
+    .overlay{
+      width: 92% !important;
+    }
+    .line{
+      max-width: 5rem !important;
+    }
+    .font{
+      font-size: 36px !important;
+    }
+    .location{
+      margin-left: 0px !important;
+      font-size: 20px !important;
+    }
+    .around{
+      padding-left: 5px !important;
+      font-size: 20px !important;
+    }
+    #icon{
+      padding: 6px !important;
+      font-size: 25px !important;
+    }
+    .web{
+      padding-left: 2px !important;
+    }
+    .webicons{
+      margin-left: 0px !important;
+    }
+    .about{
+      padding-left: 0px !important;
+      font-size: 20px !important;
     }
     
-
     
-
-
+   
   }
 
