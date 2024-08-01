@@ -101,7 +101,7 @@
   .navbar-toggler:focus{
     box-shadow: none;
   }
-  
+ 
    @media screen and (max-width:1024px){
     .footer{
       padding-left: 2rem !important;
